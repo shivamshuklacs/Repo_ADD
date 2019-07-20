@@ -14,6 +14,12 @@ public class Book{
 	return bookId;
 	}
 	
+	public void set(String author)
+	{
+	  this.author = author;
+	}	
+
+
 	public void settitle(String title)
 	{
 	this.title = title;
