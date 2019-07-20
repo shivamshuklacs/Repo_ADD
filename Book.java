@@ -3,7 +3,19 @@ public class Book{
 	private String title;
 	private String author;
 	private float price;	
-	private float bbyy;
+	
+	public void setBookId( int bookId)
+	{
+	this.bookId = bookId;
+	}
 
-
+	public int getBookId()
+	{
+	return bookId;
+	}
+	
+	public void settitle(String title)
+	{
+	this.title = title;
+	}
 }
